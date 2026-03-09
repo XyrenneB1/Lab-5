@@ -70,14 +70,22 @@ nav.sidebar {
 }
 
 nav.button {
+  width: 100px;
+  font-weight: bold;
   font-size: 14px;
-  padding: 10pxpx;
+  padding: 10px 20px;
   color: white;
-  background-color: #007bff;
+  background-color: #0080ff;
   text-decoration: none;
   border-radius: 20px;
   text-align: center;
   border: none;
+  display: block;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
 }
 .content {
   flex: 1;
