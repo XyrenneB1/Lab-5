@@ -53,10 +53,6 @@ h1 {
   background-color: white;
 }
 
-.sidebar a:first-child {
-  border-bottom: 1px solid #000;
-}
-
 .content {
   text-align: left;
   padding: 20px;
@@ -69,19 +65,23 @@ h1 {
 }
 
 .nav-button.active-page {
-  background-color: #0080ff; /* Bright blue */
-  color: white !important;
+  background-color: #0080ff;
+  color: white;
 }
 
 /* 2. Form Styling */
 .contact-form {
   width: 400px;
   margin: 40 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
@@ -90,26 +90,39 @@ h1 {
 .form-row label {
   font-size: 15px;
   width: 200px;
-  text-align: right;
+  text-align: left;
+  margin-top: 10px;
 }
 
-.form-row input,
-.form-row textarea {
+.form-row input {
   padding: 5px;
   border: 1px solid black;
-  border-radius: 4px;
-  width: 50%;
-  box-sizing: border-box;
+  border-radius: 0px;
+  width: 100%;
   align-items: center;
 }
 
-.submit-btn {
-  width: 100px;
+textarea {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 0px;
+  width: 100%;
+  align-items: center;
+}
+
+.content-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  width: 20%;
   color: black;
-  border: none;
+  border: black;
   padding: 10px;
-  border-radius: 10px;
   cursor: pointer;
+  background-color: gray;
+  margin-top: 0%;
 }
 
 footer {
