@@ -9,7 +9,8 @@ body {
 header {
   padding: 20px;
   display: flex;
-  align-items: center;
+  align-items: left;
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -118,7 +119,7 @@ textarea {
 button {
   width: 20%;
   color: black;
-  border: black;
+  border: 1px solid black;
   padding: 10px;
   cursor: pointer;
   background-color: gray;
