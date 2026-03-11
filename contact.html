@@ -7,37 +7,37 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-  <header>
+    <header>
       <div class="header-logo">
         <img src="images\logo.png" alt="Logo" class="logo-circle" />
         <h1>Xyrenne Store</h1>
       </div>
+
+      <nav class="container">
+        <a href="index.html" class="nav-button ">Home</a>
+        <a href="contact.html" class="nav-button active-page">Contact us</a>
+      </nav>
     </header>
 
-    <main>
-        <div class="container">
-            <a href="index.html" class="nav-button ">Home</a>
-            <a href="contact.html" class="nav-button active-page">Contact us</a>
-        </div>
+<main class="content-section">
+<form class="contact-form">
+<label for="name">Your name:</label>
+<input type="text" id="name" name="name" />
 
-          <div class="content-section">
-            <form class="contact-form">
-              <div class="form-row">
-                <label for="name">Your name:</label>
-                <input type="text" id="name" name="name" />
-                <label for="email">Your email:</label>
-                <input type="email" id="email" name="email" />
-                <label for="message">Your message:</label>
-                <textarea id="message" name="message" rows="5" cols="5"></textarea>
-              </div> 
-              <button type="submit">Submit</button>
-            </form>
-          </div>
-      </main>
-      <footer>
-        <p>Created by Xyrenne</p>
-        <p>Follow us on <a href="#">[social media]</a></p>
-      </footer>
-    </div>
-  </body>
+<label for="email">Your email:</label>
+<input type="email" id="email" name="email" />
+
+<label for="message">Your message:</label>
+<textarea id="message" name="message" rows="5" cols="5"></textarea>
+
+<button type="submit">Submit</button>
+</form>
+</main>
+
+<footer>
+<p>Created by Xyrenne</p>
+<p>Follow us on <a href="#">[social media]</a></p>
+</footer>
+</div>
+</body>
 </html>
